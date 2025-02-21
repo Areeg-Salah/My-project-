@@ -1,0 +1,29 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+.blog-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: #18011bbb;
+  font-weight: bold;
+}

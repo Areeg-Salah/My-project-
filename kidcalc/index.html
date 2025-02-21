@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interactive Form & kidCalc</title>
+    <link id="themeStylesheet" rel="stylesheet" href="styles-default.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="text" id="age" required><br><br>
+        
+        <label for="theme">Theme:</label>
+        <select id="theme" onchange="changeTheme()">
+            <option value="default">Default</option>
+            <option value="space">Space</option>
+            <option value="ocean">Ocean</option>
+            <option value="spider">Spider</option>
+        </select><br><br>
+        
+        <button id="submitBtn">Submit</button>
+    </div>
+    
+    <div class="container">
+        <h2>kidCalc</h2>
+        <div id="mathExpression">Expression: </div>
+        <div class="buttons">
+            <button onclick="addToExpression('0')">0</button>
+            <button onclick="addToExpression('1')">1</button>
+            <button onclick="addToExpression('2')">2</button>
+            <button onclick="addToExpression('3')">3</button>
+            <button onclick="addToExpression('4')">4</button>
+            <button onclick="addToExpression('5')">5</button>
+            <button onclick="addToExpression('6')">6</button>
+            <button onclick="addToExpression('7')">7</button>
+            <button onclick="addToExpression('8')">8</button>
+            <button onclick="addToExpression('9')">9</button>
+            <button onclick="addToExpression('+')">+</button>
+            <button onclick="addToExpression('-')">-</button>
+            <button onclick="addToExpression('>')">></button>
+            <button onclick="addToExpression('<')"><</button>
+            <button onclick="addToExpression('=')">=</button>
+        </div>
+        <br>
+        <input type="text" id="answer" placeholder="Your answer"><br><br>
+        <button onclick="checkAnswer()">Submit</button>
+        <button onclick="clearExpression()">Clear</button>
+        <p id="result"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
