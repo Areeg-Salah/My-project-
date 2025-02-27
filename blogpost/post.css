@@ -1,4 +1,3 @@
-
 .blog-container {
     max-width: 800px;
     margin: 0 auto;
@@ -6,12 +5,13 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif; 
 }
-
 
 .blog-title {
     color: #18011bbb;
     text-align: center;
+    font-family: 'Playfair Display', serif; 
 }
 
 .author {
@@ -21,6 +21,7 @@
     margin-top: 20px;
     padding: 10px;
     border-top: 1px solid #ddd;
+    font-family: 'Nunito', sans-serif;
 }
 
 .author img {
@@ -39,7 +40,9 @@
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
+
 .comment-section {
     margin-top: 30px;
     padding: 20px;
@@ -50,6 +53,7 @@
 .comment-section h3 {
     color: #ff6b6b;
     margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 .comment-section form {
@@ -65,6 +69,7 @@
     border: 2px solid #ff6b6b;
     border-radius: 5px;
     font-size: 14px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .comment-section button {
@@ -76,6 +81,7 @@
     font-size: 16px;
     border-radius: 5px;
     transition: 0.3s;
+    font-family: 'Nunito', sans-serif;
 }
 
 .comment-section button:hover {
@@ -93,4 +99,5 @@
     border-radius: 5px;
     font-size: 14px;
     margin-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
 }
