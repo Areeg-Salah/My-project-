@@ -1,0 +1,24 @@
+@import url("themes/styles-space.css");
+@import url("themes/styles-ocean.css");
+@import url("themes/styles-spider.css");
+
+body {
+    background: url("https://i.pinimg.com/236x/10/1a/62/101a623beb6a09746d3afa294bfabec2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    background: url("https://i.pinimg.com/736x/d6/c4/00/d6c400da1fd047825b5f91b209367419.jpg");
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: rgb(224, 47, 171);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
