@@ -1,12 +1,11 @@
-
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
   justify-content: center;
+  font-family: 'Poppins', sans-serif; 
 }
-
 
 .blog-card {
   background-color: white;
@@ -14,6 +13,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
+  font-family: 'Merriweather', serif; 
 }
 
 .blog-card img {
@@ -26,4 +26,6 @@
   text-decoration: none;
   color: #18011bbb;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif; 
 }
+
